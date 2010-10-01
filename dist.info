@@ -1,0 +1,10 @@
+--- This file is part of LuaDist project
+
+name = "bzip2"
+version = "1.0.5"
+
+desc = "bzip2 is a high compression ratio data compression library."
+author = "Julian Seward"
+license = "BSD"
+url = "http://www.bzip.org/"
+maintainer = "Peter Kapec"
