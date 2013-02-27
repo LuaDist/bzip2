@@ -1,0 +1,39 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Julian Seward"
+desc = "bzip2 is a high compression ratio data compression library."
+name = "bzip2"
+maintainer = "Peter Kapec"
+files = {
+Unspecified = {
+[[bin/bzip2]],
+[[bin/bzip2recover]],
+[[lib/libbz2.so]],
+[[include/bzlib.h]],
+[[share/bzip2/doc/README]],
+[[share/bzip2/doc/LICENSE]],
+[[share/bzip2/doc/manual.html]],
+[[share/bzip2/doc/bzip2.1]],
+[[share/bzip2/doc/bzgrep.1]],
+[[share/bzip2/doc/bzmore.1]],
+[[share/bzip2/doc/bzdiff.1]],
+[[share/bzip2/doc/bzegrep.1]],
+[[share/bzip2/doc/bzfgrep.1]],
+[[share/bzip2/doc/bzless.1]],
+[[share/bzip2/doc/bzcmp.1]],
+[[bin/bzgrep]],
+[[bin/bzmore]],
+[[bin/bzdiff]],
+[[bin/bunzip2]],
+[[bin/bzcat]],
+[[bin/bzegrep]],
+[[bin/bzfgrep]],
+[[bin/bzless]],
+[[bin/bzcmp]],
+}
+,
+}
+
+license = "BSD"
+url = "http://www.bzip.org/"
+version = "1.0.5"
