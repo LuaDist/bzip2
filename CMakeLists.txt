@@ -14,7 +14,7 @@ add_definitions ( -D_FILE_OFFSET_BITS=64 )
 set ( BZIP2_SRCS blocksort.c huffman.c crctable.c randtable.c compress.c decompress.c 
   bzlib.c )
 
-add_library ( bz2 ${BZIP2_SRCS} libbz2.def )
+add_library ( bz2 STATIC ${BZIP2_SRCS} libbz2.def )
 
 add_executable ( bzip2 bzip2.c )
 target_link_libraries ( bzip2 bz2 )
